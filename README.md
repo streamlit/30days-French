@@ -19,7 +19,7 @@ Nos défis sont divisés en 3 niveaux de difficulté :
 
 | Débutant (jours 1 à 7) | Intermédiaire (jours 8-23) | Avancé (jours 24-30) |
 | :--- | :---- | :--- |
-| Configurez vos environnements de codage locaux et clous, installez Streamlit et créez votre première application Streamlit.| Découvrez une nouvelle [commande Streamlit](https://docs.streamlit.io/library/api-reference) chaque jour et utilisez-les pour créer et déployer vos applications. | Découvrez des sujets cruciaux tels que `⁣', la gestion efficace des données et de la mémoire via la mise en cache, les mises en page complexes et bien plus encore !
+| Configurez vos environnements locaux et cloud, installez Streamlit et créez votre première application!| Découvrez une nouvelle [commande Streamlit](https://docs.streamlit.io/library/api-reference) chaque jour et utilisez-les pour créer et déployer vos applications. | Découvrez des sujets cruciaux tels que la gestion efficace des données et de la mémoire via la mise en cache, le `Session State`, les mises en page complexes et bien plus encore !
 
 ## Ressources
 
@@ -30,6 +30,6 @@ Nos défis sont divisés en 3 niveaux de difficulté :
 
 ## Autres traductions
 
-- [Portugais](https://github.com/franciscoed/30days) (par [franciscoed](https://github.com/franciscoed)) 
+- [🇵🇹 Portugais](https://github.com/franciscoed/30days) (par [franciscoed](https://github.com/franciscoed)) 
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/franciscoed/30days)

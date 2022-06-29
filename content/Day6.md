@@ -1,7 +1,5 @@
 # Télécharger votre application Streamlit sur GitHub
 
-## GitHub
-
 Git est un logiciel permettant de suivre toutes les modifications apportées au code (c'est-à-dire le contrôle de version). GitHub est un service d'hébergement de repo Git qui rend les données et le code accessibles au public sur le Web, ce qui permet la collaboration d'équipe et permet aux autres de contribuer au repo.
 
 Héberger votre application Streamlit dans un repo GitHub permettra aux applications d'être déployées dans le cloud (le prochain défi).

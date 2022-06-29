@@ -1,6 +1,6 @@
 # st.slider
 
-`st.slider` permet l'affichage d'un widget slider.
+`st.slider` permet l'affichage d'un slider.
 
 Les types de données suivants sont pris en charge : int, float, date, time et datetime.
 

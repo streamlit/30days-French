@@ -15,7 +15,7 @@ L'application Streamlit déployée devrait ressembler à celle illustrée dans l
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.selectbox/)
 
-##Code
+## Code
 Voici le code pour implémenter l'application mentionnée ci-dessus :
 
 ```python

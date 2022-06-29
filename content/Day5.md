@@ -21,7 +21,7 @@ L'application Streamlit déployée devrait ressembler à celle illustrée dans l
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.write/)
 
-##Code
+## Code
 
 Voici comment utiliser st.write :
 

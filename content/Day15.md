@@ -9,7 +9,7 @@ Une application simple qui affiche une équation mathématique utilisant la synt
 ## Application de démonstration
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.latex/)
 
-##Code
+## Code
 Voici comment utiliser `st.latex` :
 ```python
 import streamlit as st

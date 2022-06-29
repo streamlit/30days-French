@@ -18,7 +18,7 @@ Déroulement de l'application :
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.line_chart/)
 
-##Code
+## Code
 Voici comment utiliser [`st.line_chart`](https://docs.streamlit.io/library/api-reference/charts/st.line_chart) :
 ```python
 import streamlit as st

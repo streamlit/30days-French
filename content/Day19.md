@@ -10,7 +10,7 @@ Dans ce tutoriel, nous allons utiliser les commandes suivantes pour mettre en pa
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/streamlit-layout/)
 
-##Code
+## Code
 Voici comment personnaliser la mise en page de votre application Streamlit :
 ```python
 import streamlit as st

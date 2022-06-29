@@ -8,7 +8,7 @@ Par défaut, les fichiers uploadés sont limités à 200 Mo. Vous pouvez configu
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.file_uploader/)
 
-##Code
+## Code
 Voici comment utiliser `st.file_uploader` :
 ```python
 import streamlit as st

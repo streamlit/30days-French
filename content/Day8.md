@@ -17,7 +17,7 @@ Déroulement de l'application :
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.slider/)
 
 
-##Code
+## Code
 Voici comment utiliser st.slider :
 
 ```python

@@ -10,7 +10,7 @@ Une application simple qui montre le résultat de notre personnalisation de thè
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/streamlit-custom-theme/)
 
-##Code
+## Code
 Voici le code du fichier [`streamlit_app.py`](https://github.com/dataprofessor/streamlit-custom-theme/blob/master/streamlit_app.py) :
 ```python
 import streamlit as st

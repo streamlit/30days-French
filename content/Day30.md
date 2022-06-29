@@ -31,7 +31,7 @@ Pour commencer à utiliser l'application Streamlit, copiez et collez une URL You
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/yt-img-app/)
 
-##Code
+## Code
 Voici comment créer l'application Streamlit `yt-img-app` :
 ```python
 import streamlit as st

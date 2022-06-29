@@ -24,7 +24,7 @@ pip install streamlit_pandas_profiling
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/streamlit-components/)
 
-##Code
+## Code
 Voici comment créer une application Streamlit à l'aide d'un composant :
 
 ```python

@@ -44,4 +44,4 @@ st.latex(r'''
 ```
 
 ## Références
-- En savoir plus sur [`st.latex`](https://docs.streamlit.io/library/api-reference/text/st.latex) dans la documentation de l'API Streamlit.
+- En savoir plus sur [`st.latex`](https://docs.streamlit.io/library/api-reference/text/st.latex)!

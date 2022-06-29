@@ -31,7 +31,7 @@ else:
 
 ## Explication ligne par ligne
 
-La première chose à faire lors de la création d'une application Streamlit est d'importer la bibliothèque `streamlit` as `st` et d'autres bibliothèques prérequises comme suit :
+La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st` et d'autres bibliothèques prérequises comme suit :
 
 ```python
 import streamlit as st

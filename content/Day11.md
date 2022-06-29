@@ -23,7 +23,7 @@ st.write('You selected:', options)
 ```
 
 ## Explication ligne par ligne
-La première chose à faire lors de la création d'une application Streamlit est d'importer la bibliothèque `streamlit` as `st` comme ceci :
+La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st` comme ceci :
 ```python
 import streamlit as st
 ```

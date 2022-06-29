@@ -77,7 +77,7 @@ st.info(b1-b0)
 
 
 ## Explication ligne par ligne
-La première chose à faire lors de la création d'une application Streamlit est d'importer la bibliothèque `streamlit` as `st` ainsi que d'autres bibliothèques utilisées dans l'application comme ceci :
+La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st` ainsi que d'autres bibliothèques utilisées dans l'application comme ceci :
 ```python
 import streamlit as st
 import numpy as np

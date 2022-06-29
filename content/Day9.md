@@ -36,7 +36,7 @@ st.line_chart(chart_data)
 ```
 
 ## Explication ligne par ligne
-La première chose à faire lors de la création d'une application Streamlit est d'importer la bibliothèque `streamlit` as `st` ainsi que d'autres bibliothèques comme celle-ci :
+La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st` ainsi que d'autres bibliothèques comme celle-ci :
 
 ```python
 import streamlit as st

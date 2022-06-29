@@ -2,7 +2,7 @@
 
 L'application [Bored API](http://www.boredapi.com/) vous suggère des choses amusantes à faire lorsque vous vous ennuyez ("bored" en anglais) !
 
-Construire cette app aussi une façon ludique de comprendre comment utiliser des APIs au sein d'une application Streamlit.
+Construire cette app aussi une façon ludique de comprendre comment utiliser des APIs au sein d'une app Streamlit.
 
 
 ## Application de démonstration
@@ -45,7 +45,7 @@ with col3:
 ```
 
 ## Explication ligne par ligne
-La première chose à faire lors de la création d'une application Streamlit est d'importer la bibliothèque `streamlit` as `st`, comme suit :
+La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st`, comme suit :
 ```python
 import streamlit as st
 ```

@@ -2,7 +2,7 @@
 
 `st.latex` affiche des expressions mathématiques au format LaTeX.
 
-## Qu'est-ce que nous construisons ?
+## Que construisons nous ?
 
 Une application simple qui affiche une équation mathématique utilisant la syntaxe LaTeX via la commande `st.latex`.
 

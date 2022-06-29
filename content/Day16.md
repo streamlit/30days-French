@@ -2,7 +2,7 @@
 
 Nous pouvons personnaliser le thème en ajustant les paramètres dans `config.toml`, qui est un fichier de configuration stocké dans le dossier `.streamlit`.
 
-## Qu'est-ce que nous construisons ?
+## Que construisons nous ?
 
 Une application simple qui montre le résultat de notre personnalisation de thème. Ceci est rendu possible en personnalisant le code HTML HEX à l'intérieur du dossier [`.streamlit/config.toml`](https://github.com/dataprofessor/streamlit-custom-theme/blob/master/.streamlit/config.toml).
 

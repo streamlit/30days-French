@@ -2,7 +2,7 @@
 
 `st.button` permet l'affichage d'un bouton.
 
-## Qu'est-ce que nous construisons ?
+## Que construisons nous ?
 
 Une application simple qui imprime des messages différents selon que le bouton ait été pressé ou non.
 

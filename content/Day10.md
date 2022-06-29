@@ -2,7 +2,7 @@
 
 `st.selectbox` permet l'affichage d'un widget de sélection.
 
-## Qu'est-ce que nous construisons ?
+## Que construisons nous ?
 
 Une application simple qui demande à l'utilisateur quelle est sa couleur préférée.
 

@@ -11,7 +11,7 @@ En plus de pouvoir afficher du texte, les éléments suivants peuvent également
 - Fonctionne aussi comme `st.markdown()`
 - Et plus (voir [st.write on API docs](https://docs.streamlit.io/library/api-reference/write-magic/st.write))
 
-## Qu'est-ce que nous construisons ?
+## Que construisons nous ?
 
 Une application simple montrant les différentes manières d'utiliser la commande `st.write()` pour afficher du texte, des nombres, des DataFrames et des graphiques.
 

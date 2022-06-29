@@ -6,7 +6,7 @@ Il s'agit de syntax-sugar autour de `st.altair_chart`. La principale différence
 
 Si `st.line_chart` ne devine pas correctement, essayez de spécifier le graphique souhaité à l'aide de st.altair_chart.
 
-## Qu'est-ce que nous construisons ?
+## Que construisons nous ?
 
 Une application simple pour afficher un graphique linéaire.
 

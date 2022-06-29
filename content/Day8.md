@@ -4,7 +4,7 @@
 
 Les types de données suivants sont pris en charge : int, float, date, time et datetime.
 
-## Qu'est-ce que nous construisons ?
+## Que construisons nous ?
 
 Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le widget du curseur.
 

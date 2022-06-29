@@ -1,14 +1,14 @@
-# 30 jours de Streamlit 🎈
+# 30 Days of Streamlit en français! 🎈
 
 <img src='3AF34648-C61D-47CE-9E56-C496C5A7C240.jpeg' hauteur=250>
 
-Ceci est la version française de `#30DaysOfStreamlit` traduit de [l'anglais](https://30days.streamlitapp.com/).
+Bienvenue sur la version française de `#30DaysOfStreamlit` traduit de [l'anglais](https://30days.streamlitapp.com/).
 
  `#30DaysOfStreamlit` est un défi de 30 jours pour vous permettra d'apprendre, de créer et de déployer des applications [Streamlit](https://streamlit.io).
 
 ## Comment participer
 
-Pour participer, vous avez juste besoin d'un ordinateur, d'une connaissance de base de Python et de votre curiosité ! 🧠
+Pour participer, vous avez juste besoin d'un ordi, d'une connaissance de base de Python et de votre curiosité ! 🧠
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-french.streamlitapp.com/)
 
@@ -17,9 +17,9 @@ Pour participer, vous avez juste besoin d'un ordinateur, d'une connaissance de b
 
 Nos défis sont divisés en 3 niveaux de difficulté :
 
-| Débutant (jours 1 à 7) | Intermédiaire (jours 8-23) | Avancé (jours 24-30) |
+| Débutant (jours 1 à 7) | Intermédiaire (jours 8-23) | Expert (jours 24-30) |
 | :--- | :---- | :--- |
-| Configurez vos environnements locaux et cloud, installez Streamlit et créez votre première application!| Découvrez une nouvelle [commande Streamlit](https://docs.streamlit.io/library/api-reference) chaque jour et utilisez-les pour créer et déployer vos applications. | Découvrez des sujets cruciaux tels que la gestion efficace des données et de la mémoire via la mise en cache, le `Session State`, les mises en page complexes et bien plus encore !
+| Configurez vos environnements locaux et cloud, installez Streamlit et créez votre première application!| Découvrez une nouvelle [commande Streamlit](https://docs.streamlit.io/library/api-reference) chaque jour et utilisez-les pour créer et déployer vos applications. | Découvrez des sujets plus avancés tels que la gestion efficace des données et de la mémoire via la mise en cache, le `Session State`, créez des mises en page complexes et bien plus encore !
 
 ## Ressources
 

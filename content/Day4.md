@@ -1,4 +1,4 @@
-# Création d'applications éclairées par Stream avec Ken Jee
+# Création d'apps Streamlit avec Ken Jee
 
 ## Regardez la vidéo de Ken
 

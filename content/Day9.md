@@ -57,7 +57,7 @@ chart_data = pd.DataFrame(
      columns=['a', 'b', 'c'])
 ```
 
-Enfin, un graphique linéaire est créé en utilisant `st.line_chart()` avec la DataFrame stockée dans la variable `chart_data` comme données d'entrée :
+Enfin, un graphique linéaire est créé en utilisant `st.line_chart()` avec le DataFrame stockée dans la variable `chart_data` comme données d'entrée :
 
 ```python
 st.line_chart(chart_data)

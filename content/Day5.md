@@ -106,7 +106,7 @@ st.write(df)
 Vous pouvez passer plusieurs arguments :
 
 ```python
-st.write('La DataFrame est au dessus:', df, 'La DataFrame est en dessous.')
+st.write('le DataFrame est au dessus:', df, 'le DataFrame est en dessous.')
 ```
 
 **Exemple 5**

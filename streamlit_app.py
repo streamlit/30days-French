@@ -39,9 +39,9 @@ with st.expander("À propos du challenge #30DaysOfStreamlit"):
     Le **#30DaysOfStreamlit** est un défi conçu pour vous aider à démarrer dans la création d'applications Streamlit.
     
      Vous pourrez notamment :
-     - Configurer un environnement pour créer des applications Streamlit
-     - Créez votre première application Streamlit
-     - Découvrir tous les widgets à utiliser pour votre application Streamlit!
+     - Configurer un environnement pour créer des apps Streamlit
+     - Créez votre première app
+     - Découvrir l'éventail des widgets à utiliser pour votre application!
     """
     )
     st.write("")

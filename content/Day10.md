@@ -8,7 +8,7 @@ Une application simple qui demande à l'utilisateur quelle est sa couleur préf�
 
 Déroulement de l'application :
 1. L'utilisateur sélectionne une couleur
-2. L'application imprime la couleur sélectionnée
+2. L'application affiche la couleur sélectionnée
 
 ## Application de démonstration
 L'application Streamlit déployée devrait ressembler à celle illustrée dans le lien ci-dessous :

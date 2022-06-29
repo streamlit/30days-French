@@ -10,7 +10,7 @@ Une application simple qui montre les différentes manières d'accepter les entr
 
 Déroulement de l'application :
 1. L'utilisateur sélectionne la valeur en ajustant le widget du curseur
-2. L'application imprime la valeur sélectionnée
+2. L'application affiche la valeur sélectionnée
 
 ## Application de démonstration
 

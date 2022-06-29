@@ -57,7 +57,7 @@ st.write('Ci-dessous se trouve une DataFrame :', df, 'Ci-dessus se trouve une D
 
 df2 = pd.DataFrame(
      np.random.randn(200, 3),
-     colonnes=['a', 'b', 'c'])
+     columns=['a', 'b', 'c'])
 c = alt.Chart(df2).mark_circle().encode(
      x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
 st.write(c)
@@ -115,7 +115,7 @@ Enfin, vous pouvez également afficher des graphiques en les intégrant à une v
 ```python
 df2 = pd.DataFrame(
      np.random.randn(200, 3),
-     colonnes=['a', 'b', 'c'])
+     columns=['a', 'b', 'c'])
 c = alt.Chart(df2).mark_circle().encode(
      x='a', y='b', size='c', color='c', tooltip=['a', 'b', 'c'])
 st.write(c)

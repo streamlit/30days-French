@@ -63,7 +63,7 @@ si yt_url != '' :
   yt_img = f'http://img.youtube.com/vi/{ytid}/{img_quality}.jpg'
   st.image(yt_img)
   st.write('URL de l'image miniature de la vidéo YouTube : ', yt_img)
-autre:
+else:
   st.write('☝️ Entrez l'URL pour continuer ...')
 ```
 

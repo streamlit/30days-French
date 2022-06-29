@@ -55,7 +55,7 @@ coffee = st.checkbox('Coffee')
 cola = st.checkbox('Cola')
 ```
 
-Enfin, nous allons imprimer un texte personnalisé en fonction de la case cochée :
+Enfin, nous allons afficher un texte personnalisé en fonction de la case cochée :
 ```python
 if icecream:
      st.write("Great! Here's some more 🍦")

@@ -4,11 +4,11 @@
 
 ## Que construisons nous ?
 
-Une application simple qui imprime des messages différents selon que le bouton ait été pressé ou non.
+Une application simple qui affiche des messages différents selon que le bouton ait été pressé ou non.
 
 Déroulement de l'application :
 
-1. Par défaut, l'application imprime "Goodbye"
+1. Par défaut, l'application affiche "Goodbye"
 2. En cliquant sur le bouton, l'application affiche le message alternatif "Why Hello?"
 
 ## Application de démonstration
@@ -28,7 +28,7 @@ st.header('st.button')
 
 if st.button('say hello'):
      st.write('why hello?')
-autre:
+else:
      st.write('goodbye')
 ```
 
@@ -51,13 +51,13 @@ Ensuite, nous utiliserons les instructions conditionnelles `if` et `else` pour a
 ```python
 if st.button('say hello'):
      st.write('why hello?')
-autre:
+else:
      st.write('goodbye')
 ```
 
 Comme nous pouvons le voir dans le code ci-dessus, la commande `st.button()` accepte l'argument d'entrée `say hello`, qui est le texte affiché par le bouton.
 
-La commande `st.write` est utilisée pour imprimer des messages texte de type `why hello?` ou `goodbye` selon que le bouton ait été cliqué ou non, implémenté via :
+La commande `st.write` est utilisée pour afficher des messages texte de type `why hello?` ou `goodbye` selon que le bouton ait été cliqué ou non, implémenté via :
 
 
 ```python

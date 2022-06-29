@@ -91,7 +91,7 @@ st.write("I'm ", age, 'years old')
 
 Comme nous pouvons le voir, la commande `st.slider()` est utilisé pour collecter les données sur l'âge des utilisateurs.
 
-Le premier argument d'entrée affiche le texte juste au-dessus du widget **slider** demandant `'How old are you?'`.
+Le premier argument d'entrée affiche le texte juste au-dessus du slider demandant `'How old are you?'`.
 
 Les trois nombres entiers suivants "0, 130, 25" représentent les valeurs minimale, maximale et par défaut, respectivement.
 

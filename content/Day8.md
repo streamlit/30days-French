@@ -6,10 +6,10 @@ Les types de données suivants sont pris en charge : int, float, date, time et 
 
 ## Que construisons nous ?
 
-Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le widget du curseur.
+Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le widget du slider.
 
 Déroulement de l'application :
-1. L'utilisateur sélectionne la valeur en ajustant le widget du curseur
+1. L'utilisateur sélectionne la valeur en ajustant le widget du slider
 2. L'application affiche la valeur sélectionnée
 
 ## Application de démonstration
@@ -108,9 +108,9 @@ values = st.slider(
 st.write('Values:', values)
 ```
 
-Le curseur de plage permet de sélectionner une paire de valeurs limites inférieure et supérieure.
+Le slider de plage permet de sélectionner une paire de valeurs limites inférieure et supérieure.
 
-Le premier argument d'entrée affiche le texte juste au-dessus du widget **curseur de plage** demandant `'Select a range of values'`.
+Le premier argument d'entrée affiche le texte juste au-dessus du widget **slider de plage** demandant `'Select a range of values'`.
 
 Les trois arguments suivants "0.0, 100.0, (25.0, 75.0)" représentent les valeurs minimale et maximale tandis que le dernier tuple indique les valeurs par défaut à utiliser comme valeurs de limite inférieure (25.0) et supérieure (75.0) sélectionnées.
 

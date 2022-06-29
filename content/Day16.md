@@ -11,7 +11,7 @@ Une application simple qui montre le résultat de notre personnalisation de thè
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/streamlit-custom-theme/)
 
 ## Code
-Voici le code du fichier [`streamlit_app.py`](https://github.com/dataprofessor/streamlit-custom-theme/blob/master/streamlit_app.py) :
+Voici le code au sein du fichier [`streamlit_app.py`](https://github.com/dataprofessor/streamlit-custom-theme/blob/master/streamlit_app.py) :
 ```python
 import streamlit as st
 
@@ -32,7 +32,7 @@ number = st.sidebar.slider('Select a number:', 0, 10, 5)
 st.write('Selected number from slider widget is:', number)
 ```
 
-Voici le code du fichier [`.streamlit/config.toml`](https://github.com/dataprofessor/streamlit-custom-theme/blob/master/.streamlit/config.toml) :
+Voici le code se trouvant dans [`.streamlit/config.toml`](https://github.com/dataprofessor/streamlit-custom-theme/blob/master/.streamlit/config.toml) :
 ```python
 [theme]
 primaryColor="#F39C12"

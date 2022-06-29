@@ -76,7 +76,7 @@ Maintenant que vous avez créé votre app localement, il est temps de la déploy
 
 Comme il s'agit de la première semaine de votre défi, nous vous fournissons le code complet et la solution (l'app de démonstration) ici.
 
-Pour avancer dans les prochains défis, il est recommandé d'essayer d'implémenter l'application Streamlit vous-même.
+Pour progresser dans les prochains défis, il est recommandé d'essayer d'implémenter l'app Streamlit vous-même.
 
 Ne vous inquiétez pas si vous êtes bloqué, vous pouvez toujours jeter un coup d'œil à la solution !
 

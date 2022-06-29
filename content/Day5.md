@@ -129,13 +129,11 @@ L'application Streamlit déployée devrait ressembler à celle illustrée dans l
 
 ## Prochaines étapes
 
-Maintenant que vous avez créé l'application Streamlit localement, il est temps de la déployer sur [Streamlit Cloud](https://streamlit.io/cloud) comme cela sera expliqué prochainement dans un prochain défi.
+Maintenant que vous avez créé l'application Streamlit localement, il est temps de la déployer sur [Streamlit Cloud](https://streamlit.io/cloud) comme on vous l'expliquera dans un prochain défi.
 
-Comme il s'agit de la première semaine de votre défi, nous fournissons le code complet (comme indiqué dans la zone de code ci-dessus) et la solution (l'application de démonstration) directement sur cette page Web.
+Comme il s'agit de la première semaine de votre défi, nous fournissons le code complet (code ci-dessus) et la solution (l'app de démonstration) sur cette page Web.
 
-Pour avancer dans les prochains défis, il est recommandé d'essayer d'abord d'implémenter l'application Streamlit vous-même.
-
-Ne vous inquiétez pas si vous êtes bloqué, vous pouvez toujours jeter un coup d'œil à la solution.
+Pour progresser dans les prochains défis, il est recommandé d'essayer d'implémenter l'app Streamlit vous-même! Ne vous inquiétez pas si vous êtes bloqué, vous pouvez toujours jeter un coup d'œil à la solution.
 
 ## Lectures complémentaires
 

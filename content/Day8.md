@@ -6,10 +6,10 @@ Les types de données suivants sont pris en charge : int, float, date, time et 
 
 ## Que construisons nous ?
 
-Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le widget du slider.
+Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le slider.
 
 Déroulement de l'application :
-1. L'utilisateur sélectionne la valeur en ajustant le widget du slider
+1. L'utilisateur sélectionne la valeur en ajustant le slider
 2. L'application affiche la valeur sélectionnée
 
 ## Application de démonstration

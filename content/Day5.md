@@ -33,15 +33,15 @@ import streamlit as st
 
 st.header('st.write')
 
-# Exemple 1
+# Example 1
 
 st.write('Hello, *World!* :sunglasses:')
 
-# Exemple 2
+# Example 2
 
 st.write(1234)
 
-# Exemple 3
+# Example 3
 
 df = pd.DataFrame({
      'première colonne' : [1, 2, 3, 4],
@@ -49,11 +49,11 @@ df = pd.DataFrame({
      })
 st.write(df)
 
-# Exemple 4
+# Example 4
 
 st.write('Ci-dessous se trouve une DataFrame :', df, 'Ci-dessus se trouve une DataFrame.')
 
-# Exemple 5
+# Example 5
 
 df2 = pd.DataFrame(
      np.random.randn(200, 3),

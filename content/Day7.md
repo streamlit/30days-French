@@ -14,4 +14,4 @@ Pour déployer votre app, procédez comme suit :
 2. Choisissez un repo, une branche et un fichier
 3. Cliquez sur `Deploy`
 
-Et comme par magie, votre application se met à jour instantanément chaque fois que vous faites un git push! 🧙 
+Comme par magie, votre app se met à jour instantanément à chaque `git push`! 🧙 

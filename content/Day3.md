@@ -70,18 +70,16 @@ et
 st.write('goodbye')
 ```
 
-Il est important de noter que les instructions `st.write` ci-dessus sont placées sous les conditions `if` et `else` afin d'effectuer le processus mentionné ci-dessus d'affichage alternatif des messages.
-
 ## Prochaines étapes
 
-Maintenant que vous avez créé l'application Streamlit localement, il est temps de la déployer sur [Streamlit Cloud](https://streamlit.io/cloud) comme cela sera expliqué dans un prochain défi.
+Maintenant que vous avez créé votre app localement, il est temps de la déployer sur [Streamlit Cloud](https://streamlit.io/cloud) comme cela sera expliqué dans un prochain défi.
 
-Comme il s'agit de la première semaine de votre défi, nous fournissons le code complet (comme indiqué dans la zone de code ci-dessus) et la solution (l'application de démonstration) directement sur cette page Web.
+Comme il s'agit de la première semaine de votre défi, nous vous fournissons le code complet et la solution (l'app de démonstration) ici.
 
-Pour avancer dans les prochains défis, il est recommandé d'essayer d'abord d'implémenter l'application Streamlit vous-même.
+Pour avancer dans les prochains défis, il est recommandé d'essayer d'implémenter l'application Streamlit vous-même.
 
 Ne vous inquiétez pas si vous êtes bloqué, vous pouvez toujours jeter un coup d'œil à la solution !
 
 ## Références
 
-Vous souhaitez en savoir plus? Vous pouvez consulter la documentation de [`st.button`](https://docs.streamlit.io/library/api-reference/widgets/st.button) dans la documentation de l'API Streamlit.
+Vous souhaitez en savoir plus? Consultez la documentation [`st.button`](https://docs.streamlit.io/library/api-reference/widgets/st.button)!

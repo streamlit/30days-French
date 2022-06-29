@@ -2,16 +2,15 @@
 
 `st.line_chart` affiche un graphique linéaire.
 
-Il s'agit de syntax-sugar autour de `st.altair_chart`. La principale différence est que cette commande utilise les colonnes et les indices du dataset pour déterminer les spécifications du graphique. Par conséquent, il est plus facile à utiliser pour de nombreux scénarios, tout en étant moins personnalisable.
+Il s'agit d'un sucre syntaxique d'`st.altair_chart`. La principale différence est que cette commande utilise les colonnes et indices du dataset pour déterminer le graphique. Il est plus facile à utiliser tout en étant moins personnalisable.
 
-Si `st.line_chart` ne devine pas correctement, essayez de spécifier le graphique souhaité à l'aide de st.altair_chart.
+Si `st.line_chart` ne devine pas correctement, essayez de spécifier le graphique souhaité à l'aide de `st.altair_chart`.
 
 ## Que construisons nous ?
 
-Une application simple pour afficher un graphique linéaire.
+Une application simple pour afficher un graphique linéaire:
 
-Déroulement de l'application :
-1. Créez une DataFrame `Pandas` à partir de nombres générés aléatoirement via `NumPy`.
+1. Créez un DataFrame `Pandas` à partir de nombres générés aléatoirement via `NumPy`.
 2. Créez et affichez le graphique linéaire via la commande `st.line_chart()`.
 
 ## Démo
@@ -50,14 +49,14 @@ Ensuite, nous créons un texte d'en-tête pour l'application :
 st.header('Line chart')
 ```
 
-Ensuite, nous créons une DataFrame de nombres générés aléatoirement qui contient 3 colonnes.
+Ensuite, nous créons un DataFrame de nombres générés aléatoirement contenant 3 colonnes.
 ```python
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
      columns=['a', 'b', 'c'])
 ```
 
-Enfin, un graphique linéaire est créé en utilisant `st.line_chart()` avec le DataFrame stockée dans la variable `chart_data` comme données d'entrée :
+Enfin, un graphique linéaire est créé en utilisant `st.line_chart()` et le DataFrame stockée dans la variable `chart_data` comme donnée d'entrée :
 
 ```python
 st.line_chart(chart_data)

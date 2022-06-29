@@ -8,7 +8,7 @@ Les types de données suivants sont pris en charge : int, float, date, time et 
 
 Une application simple qui montre les différentes manières d'accepter les entrées de l'utilisateur en ajustant le slider.
 
-Déroulement de l'application :
+ :
 1. L'utilisateur sélectionne la valeur en ajustant le slider
 2. L'application affiche la valeur sélectionnée
 
@@ -89,11 +89,11 @@ st.write("I'm ", age, 'years old')
 ```
 
 
-Comme nous pouvons le voir, la commande `st.slider()` est utilisé pour collecter les données sur l'âge des utilisateurs.
+Comme nous pouvons le voir, la commande `st.slider()` est utilisée pour collecter les données sur l'âge des utilisateurs.
 
 Le premier argument d'entrée affiche le texte juste au-dessus du slider demandant `'How old are you?'`.
 
-Les trois nombres entiers suivants "0, 130, 25" représentent les valeurs minimale, maximale et par défaut, respectivement.
+Les trois nombres suivants "0, 130, 25" représentent les valeurs minimale, maximale et par défaut, respectivement.
 
 **Exemple 2**
 
@@ -108,9 +108,9 @@ values = st.slider(
 st.write('Values:', values)
 ```
 
-Le slider de plage permet de sélectionner une paire de valeurs limites inférieure et supérieure.
+Le slider de de type `range` permet de sélectionner une paire de valeurs limites inférieure et supérieure.
 
-Le premier argument d'entrée affiche le texte juste au-dessus du widget **slider de plage** demandant `'Select a range of values'`.
+Le premier argument d'entrée affiche le texte juste au-dessus du widget **slider de de type `range`** demandant `'Select a range of values'`.
 
 Les trois arguments suivants "0.0, 100.0, (25.0, 75.0)" représentent les valeurs minimale et maximale tandis que le dernier tuple indique les valeurs par défaut à utiliser comme valeurs de limite inférieure (25.0) et supérieure (75.0) sélectionnées.
 

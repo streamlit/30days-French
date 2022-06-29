@@ -51,7 +51,7 @@ st.write(df)
 
 # Example 4
 
-st.write('Ci-dessous se trouve une DataFrame :', df, 'Ci-dessus se trouve une DataFrame.')
+st.write('Ci-dessous se trouve un DataFrame :', df, 'Ci-dessus se trouve un DataFrame.')
 
 # Example 5
 

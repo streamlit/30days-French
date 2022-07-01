@@ -47,9 +47,9 @@ with st.expander('About this app'):
      st.write('You can now display the progress of your calculations in a Streamlit app with the `st.progress` command.')
 ```
 
-Enfin, nous définissons une barre de progression et lui donnons une valeur de départ de `0`.
+Ensuite, nous définissons une barre de progression et lui donnons une valeur de départ de `0`.
 
-Ensuite, une boucle `for` itérera de `0` à `100` . À chaque itération, nous utilisons `time.sleep(0.05)` pour permettre à l'app d'attendre `0.05` secondes avant d'ajouter une valeur de `1` à la barre de progression `my_bar`. Ce faisant, l'affichage de la barre augmente à chaque itération.
+Enfin, une boucle `for` itérera de `0` à `100` . À chaque itération, nous utilisons `time.sleep(0.05)` pour permettre à l'app d'attendre `0.05` secondes avant d'ajouter une valeur de `1` à la barre de progression `my_bar`. Ce faisant, l'affichage de la barre augmente à chaque itération.
 
 ```python
 my_bar = st.progress(0)

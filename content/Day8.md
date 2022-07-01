@@ -72,7 +72,7 @@ from datetime import time, datetime
 ```
 
 
-Ensuite, créons une en-tête (header) pour l'application :
+Ensuite, créons un en-tête (header) pour l'application :
 ```python
 st.header('st.slider')
 ```

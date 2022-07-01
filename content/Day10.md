@@ -36,12 +36,12 @@ La première chose à faire lors de la création d'une app Streamlit est d'impor
 import streamlit as st
 ```
 
-Ensuite, créons une en-tête (header) pour l'application :
+Ensuite, créons un en-tête (header) pour l'application :
 ```python
 st.header('st.selectbox')
 ```
 
-Ensuite, nous allons créer une variable appelée `option` qui acceptera notre widget de sélection via la commande `st.selectbox()`.
+Maintenant, nous allons créer une variable appelée `option` qui acceptera notre widget de sélection via la commande `st.selectbox()`.
 
 ```python
 option = st.selectbox(
@@ -49,7 +49,7 @@ option = st.selectbox(
      ('Blue', 'Red', 'Green'))
 ```
 
-Comme nous pouvons le voir dans le code ci-dessus, la commande `st.selectbox()` accepte 2 arguments:
+Comme nous le voyons dans le code ci-dessus, la commande `st.selectbox()` accepte 2 arguments :
 1. Le texte qui se trouve au-dessus du widget de sélection, c'est-à-dire `'What is your favorite color?'`
 2. Les valeurs possibles à sélectionner parmi `('Blue', 'Red', 'Green')`
 

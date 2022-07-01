@@ -37,7 +37,7 @@ La première chose à faire lors de la création d'une app Streamlit est d'impor
 import streamlit as st
 ```
 
-Ensuite, créons une en-tête (header) pour l'application :
+Ensuite, créons un en-tête (header) pour l'application :
 ```python
 st.header('st.checkbox')
 ```

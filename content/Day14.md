@@ -51,7 +51,7 @@ import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 ```
 
-Ensuite, créons une en-tête (header) pour l'application :
+Ensuite, créons un en-tête (header) pour l'application :
 ```python
 st.header('`streamlit_pandas_profiling`')
 ```

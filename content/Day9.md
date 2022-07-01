@@ -43,7 +43,7 @@ import pandas as pd
 import numpy as np
 ```
 
-Ensuite, nous créons une en-tête (header) pour l'application :
+Ensuite, nous créons un en-tête (header) pour l'application :
 
 ```python
 st.header('Line chart')

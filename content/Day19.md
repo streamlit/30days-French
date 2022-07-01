@@ -1,9 +1,9 @@
-# Comment mettre en page votre application Streamlit
+# Améliorer la mise en page de votre app Streamlit
 
 Dans ce tutoriel, nous allons utiliser les commandes suivantes pour mettre en page notre application Streamlit :
 - `st.set_page_config(layout="wide")` - Affiche le contenu de l'application en mode large.
 - `st.sidebar` - Place les widgets dans la barre latérale.
-- `st.expander` - Place les widgets dans un expader.
+- `st.expander` - Place les widgets dans un expander.
 - `st.columns` - Crée une colonne dans lequel le contenu peut être placé.
 
 ## Application de démonstration
@@ -76,7 +76,7 @@ with st.expander('About this app'):
   st.image('https://streamlit.io/images/brand/streamlit-logo-secondary-colormark-darktext.png', width=250)
 ```
 
-Les widgets `text_input` et `selectbox` sont placés dans la barre latérale en utilisant la commande `st.sidebar`. Ces valeurs sont stockées dans les variables `user_name`, `user_emoji` et `user_food`:
+Les widgets `text_input` et `selectbox` sont placés dans la barre latérale via la commande `st.sidebar`. Ces valeurs sont stockées dans les variables `user_name`, `user_emoji` et `user_food`:
 ```python
 st.sidebar.header('Input')
 user_name = st.sidebar.text_input('What is your name?')
@@ -86,13 +86,13 @@ user_food = st.sidebar.selectbox('What is your favorite food?', ['', 'Tom Yum Ku
 
 Enfin, nous allons créer 3 colonnes à l'aide de la commande `st.columns` : `col1`, `col2` et `col3`.
 
-Nous attribuons un contenu à chacune des colonnes en créant des blocs de code individuels commençant par l'instruction `with`.
+Attribuons un contenu à chacune de nos colonnes en créant des blocs de code commençant par l'instruction `with`.
 
-En dessous, nous créons des instructions conditionnelles qui affichent un texte alternatif sur deux selon que l'utilisateur ait spécifié ses données ou non.
+Ensuite, créons les instructions conditionnelles qui affichent un texte alternatif sur deux selon que l'utilisateur ajoute ses données ou pas.
 
 Par défaut, la page affiche le texte sous l'instruction `else`.
 
-Lors de la saisie, les informations que l'utilisateur donne à l'application sont affichées sous le texte d'en-tête (header) 'Output' :
+Lors de la saisie, les informations que l'utilisateur donne à l'application sont affichées sous l'en-tête 'Output' :
 
 
 ```python
@@ -119,7 +119,7 @@ with col3:
     st.write('👈 Please choose your favorite **food**!')
 ```
 
-Il convient également de noter que des `f-strings` ont été utilisées pour combiner les textes avec les valeurs fournies par l'utilisateur.
+Il convient également de noter que des `f-strings` sont utilisées pour combiner les textes statiques avec les valeurs fournies par l'utilisateur.
 
 ## Lectures complémentaires
 - [Mises en page et conteneurs](https://docs.streamlit.io/library/api-reference/layout)

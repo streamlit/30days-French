@@ -1,14 +1,14 @@
 # st.experimental_get_query_params
 
-`st.experimental_get_query_params` permet la récupération des paramètres de requête directement à partir de l'URL du navigateur de l'utilisateur.
+`st.experimental_get_query_params` permet la récupération des paramètres de requête à partir de l'URL du navigateur de l'utilisateur.
 
 ## Démo
 
-1. Le lien ci-dessous vous montre l'app sans paramètres de requête (notez le message d'erreur) :
+1. Le lien ci-dessous vous montre l'app sans paramètres (notez le message d'erreur) :
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st.experimental_get_query_params/)
 
-1. A contrario, le lien suivant charge l'app avec les paramètres de requête (pas de message d'erreur ici) :
+1. A contrario, le lien suivant charge l'app avec les paramètres (pas de message d'erreur ici) :
 
 [![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](http://share.streamlit.io/dataprofessor/st.experimental_get_query_params/?firstname=Jack&surname=Beanstalk)
 
@@ -55,7 +55,7 @@ La première chose à faire lors de la création d'une app Streamlit est d'impor
 import streamlit as st
 ```
 
-Ensuite, donnons un titre à l'application :
+Ensuite, donnons un titre à notre application :
 ```python
 st.title('st.experimental_get_query_params')
 ```
@@ -66,8 +66,7 @@ with st.expander('About this app'):
   st.write("`st.experimental_get_query_params` allows the retrieval of query parameters directly from the URL of the user's browser.")
 ```
 
-
-Ensuite, ajoutons des instructions pour les visiteurs de l'app, sur la façon dont ils peuvent transmettre les paramètres de requête directement vers l'URL :
+Ajoutons maintenant des instructions pour les utilisateurs quant à la façon dont ils peuvent transmettre les paramètres de requête directement vers l'URL :
 
 ```python
 # 1. Instructions
@@ -81,7 +80,7 @@ such that it becomes
 ''')
 ```
 
-Maintenant, affichons le contenu de la commande `st.experimental_get_query_params`.
+Affichons ensuite le contenu de la commande `st.experimental_get_query_params`.
 
 ```python
 # 2. Contents of st.experimental_get_query_params
@@ -89,7 +88,7 @@ st.header('2. Contents of st.experimental_get_query_params')
 st.write(st.experimental_get_query_params())
 ```
 
-Enfin, affichons des informations sélectives en fonction paramètre de requête de l'URL :
+Affichons enfin des informations relatives aux paramètres de requête de l'URL :
 
 ```python
 # 3. Retrieving and displaying information from the URL

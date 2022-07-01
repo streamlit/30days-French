@@ -142,4 +142,4 @@ st.write('Selected value: ', selected_val)
 
 ## Lectures complémentaires
 - [`st.form`](https://docs.streamlit.io/library/api-reference/control-flow/st.form)
-- [Présentation du bouton Soumettre et des formulaires](https://blog.streamlit.io/introducing-submit-button-and-forms/)
+- [Présentation du bouton 'submit' et des formulaires](https://blog.streamlit.io/introducing-submit-button-and-forms/)

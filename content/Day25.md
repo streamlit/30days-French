@@ -77,5 +77,5 @@ st.write("st.session_state object:", st.session_state)
 ```
 
 ## Lectures complémentaires
-- [État de la session](https://docs.streamlit.io/library/api-reference/session-state)
-- [Ajouter un état aux applications](https://docs.streamlit.io/library/advanced-features/session-state)
+- [Session State](https://docs.streamlit.io/library/api-reference/session-state)
+- [Ajouter Session State à votre application](https://docs.streamlit.io/library/advanced-features/session-state)

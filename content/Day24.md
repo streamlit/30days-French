@@ -2,19 +2,19 @@
 
 `st.cache` vous permet d'optimiser les performances de votre application Streamlit!
 
-Streamlit fournit un mécanisme de mise en cache qui permet à votre application de rester performante même lors du chargement de données à partir du Web, de la manipulation de large quantité de données, ou de l'exécution de calculs complexes.
+Streamlit fournit un mécanisme de mise en cache qui permet à votre app de rester performante même lors du chargement (ou de la manipulation) de large quantité de données, ou bien encore de l'exécution de calculs complexes.
 
 Ceci est possible grâce au décorateur `@st.cache`.
 
 Lorsque vous ajoutez le décorateur `@st.cache` à une fonction Python, cela indique à Streamlit qu'à chaque fois que la fonction est appelée, elle doit vérifier quelques éléments :
 
 1. Les paramètres d'entrée avec lesquels vous avez appelé la fonction
-2. La valeur de toute variable externe utilisée dans la fonction
+2. Les valeurs des variables externes utilisées dans la fonction
 3. Le corps de toute fonction utilisée dans la fonction mise en cache
 
-Si c'est la première fois que Streamlit voit ces quatre composants avec ces valeurs exactes et dans cette combinaison et cet ordre précis, il exécute la fonction et stocke le résultat dans un cache local.
+Si c'est la première fois que Streamlit voit ces trois composants (dans cette combinaison et cet ordre précis), il exécute la fonction et stocke le résultat dans un cache local.
 
-Lorsque la fonction mise en cache une seconde fois, et si aucun de ces composants n'a changé, Streamlit ignorera simplement l'exécution de la fonction et, à la place, renverra la sortie précédemment stockée dans le cache !
+Lorsque la fonction mise en cache une seconde fois, Streamlit ignorera l'exécution de la fonction et, à la place, renverra la sortie précédemment stockée dans le cache !
 
 Magique ! N'est-ce pas ?
 
@@ -24,7 +24,7 @@ Magique ! N'est-ce pas ?
 ## Comment utiliser `st.cache`?
 
 
-Il suffit juste d'ajouter le décorateur `st.cache` au-dessus d'une fonction Python, c'est aussi simple que cela !
+Il suffit d'ajouter le décorateur `st.cache` au-dessus d'une fonction Python, c'est aussi simple que cela !
 
 Voyons l'exemple ci-dessous.
 
@@ -90,7 +90,7 @@ Ensuite, créons un titre pour l'application :
 st.title('Streamlit Cache')
 ```
 
-Ensuite, nous définirons deux fonctions personnalisées pour générer une DataFrame: la première utilise le décorateur `st.cache`, tandis que la seconde ne l'utilise pas :
+Ensuite, nous définirons deux fonctions personnalisées pour générer un DataFrame: la première utilise le décorateur `st.cache`, tandis que la seconde ne l'utilise pas :
 ```python
 @st.cache(suppress_st_warning=True)
 def load_data_a():

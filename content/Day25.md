@@ -6,7 +6,7 @@ L'accès à une application Streamlit se fait en initialisant une session dans u
 
 En plus de la possibilité de conserver l'état (state) de l'app, Streamlit permet aussi de modifier cet état à l'aide de Callbacks.
 
-Dans ce tutoriel, nous allons illustrer l'utilisation de Session State et des `Callbacks` et créant un convertisseur de poids.
+Dans ce tutoriel, nous allons illustrer l'utilisation de Session State et des Callbacks et créant un convertisseur de poids.
 
 `st.session_state` est le widget qui permet l'implémentation de Session State dans une application Streamlit.
 
@@ -69,7 +69,7 @@ with col2:
 
 Les deux fonctions ci-dessus sont appelées dès qu'une valeur est entrée via `st.number_input`. Remarquez comment l'option `on_change` spécifie les deux fonctions `lbs_to_kg` et `kg_to_lbs`.
 
-Enfin, les valeurs de poids en unités `kg` et `lbs` telles que stockées dans le session state sous `st.session_state.kg` et `st.session_state.lbs` sont affichées via `st.write` :
+Enfin, les valeurs de poids en unités `kg` et `lbs` telles que stockées dans le Session State sous `st.session_state.kg` et `st.session_state.lbs` sont affichées via `st.write` :
 
 ```python
 st.header('Output')

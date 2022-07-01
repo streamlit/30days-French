@@ -43,13 +43,15 @@ Ensuite, créons un titre pour l'application :
 st.title('st.file_uploader')
 ```
 
-Ensuite, utilisons `st.file_uploader` :
+Maintentenant, utilisons `st.file_uploader` :
 ```python
 st.subheader('Input CSV')
 uploaded_file = st.file_uploader("Choose a file")
 ```
 
-Enfin, Définissons des instructions conditionnelles (`if`/`else`) pour afficher un message de bienvenue invitant les utilisateurs à uploader leurs fichiers. Lors de l'upload du fichier, les instructions du bloc `if` sont activées, le fichier CSV est lu par la bibliothèque Pandas, et affiché via la commande `st.write`:
+Enfin, définissons des instructions conditionnelles (`if`/`else`) pour afficher un message de bienvenue invitant les utilisateurs à uploader leurs fichiers.
+
+Lors de l'upload du fichier, les instructions du bloc `if` sont activées, le fichier CSV est lu par la bibliothèque Pandas, et affiché via la commande `st.write`:
 
 ```python
 if uploaded_file is not None:

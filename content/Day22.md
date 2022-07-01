@@ -1,8 +1,11 @@
 # st.form
 
-`st.form` crée un formulaire qui regroupe les éléments avec un bouton "Submit".
+`st.form` crée un formulaire au sein de votre application.
 
-En règle générale, chaque fois qu'un utilisateur interagit avec un widget, l'application Streamlit est réexécutée Un formulaire est un conteneur qui regroupe d'autres éléments et widgets et un bouton "Submit". Un utilisateur peut donc interagir avec un ou plusieurs widgets autant de fois qu'il le souhaite sans provoquer de réexécution du code. Lorsque le bouton "Submit" du formulaire est pressé, toutes les valeurs de widget à l'intérieur du formulaire seront envoyées à Streamlit en une seule fois.
+En règle générale, chaque fois qu'un utilisateur interagit avec un widget, l'application Streamlit est réexécutée.
+
+
+Un formulaire est un conteneur qui regroupe un ou plusieurs widgets et un bouton "Submit". Un utilisateur peut donc interagir avec un ou plusieurs widgets autant de fois qu'il le souhaite sans provoquer de réexécution du code. Lorsque le bouton "Submit" du formulaire est pressé, toutes les valeurs de widget à l'intérieur de ce formulaire seront envoyées à Streamlit en un seul "batch".
 
 Les formulaires ont toutefois quelques contraintes :
 
@@ -72,13 +75,15 @@ La première chose à faire lors de la création d'une app Streamlit est d'impor
 import streamlit as st
 ```
 
-Ensuite, créons un titre pour l'application :
+Créons aussi un titre pour l'application :
 ```python
 st.title('st.form')
 ```
 
 ### Premier exemple
-Dans le formulaire, nous commencerons par écrire une sous-en-tête (subheader) "Order your coffee", puis créerons plusieurs widgets de saisie (`st.selectbox`, `st.select_slider` et `st.checkbox`) pour collecter des informations sur la commande de café. Enfin, un bouton "Submit" est créé via la commande `st.form_submit_button`, qui, une fois cliqué, enverra toutes les données entrées par l'utilisateur a l'application.
+Dans le formulaire, commençons par afficher un "subheader" "Order your coffee", puis créons plusieurs widgets de saisie (`st.selectbox`, `st.select_slider` et `st.checkbox`) pour collecter des informations sur la commande de café.
+
+Enfin, un bouton "Submit" est créé via la commande `st.form_submit_button`, qui, une fois cliqué, enverra toutes les données entrées par l'utilisateur a l'application.
 
 ```python
 # Full example of using the with notation
@@ -99,9 +104,9 @@ with st.form('my_form'):
     submitted = st.form_submit_button('Submit')
 ```
 
-Une fois cliqué sur le bouton 'Submit', il est temps d'ajouter un peu de *logique*!
+Il est maintenant temps d'ajouter de la logique!
 
-Par défaut, chaque fois que l'application Streamlit démarre, l'instruction `else` sera exécutée et nous verrons un message `☝️ Place your order!`. Alors qu'en cliquant sur le bouton d'envoi (`Submit`), toutes les entrées fournies par l'utilisateur via les différents widgets sont stockées dans plusieurs variables (par exemple, `coffee_bean_val`, `coffee_roast_val`, etc.) et imprimées via la commande `st.markdown` à l'aide d'un f-string, comme suit:
+Par défaut, chaque fois que l'application Streamlit démarre, l'instruction `else` sera exécutée et nous verrons un message `☝️ Place your order!`. Alors qu'en cliquant sur le bouton d'envoi (`Submit`), toutes les entrées fournies par l'utilisateur via les différents widgets sont stockées dans plusieurs variables (par exemple, `coffee_bean_val`, `coffee_roast_val`, etc.) et affichées via la commande `st.markdown` à l'aide d'un f-string, comme suit:
 
 ```python
 if submitted:
@@ -120,7 +125,8 @@ else:
 
 
 ### Deuxième exemple
-Passons maintenant au deuxième exemple sur l'utilisation de `st.form` comme notation d'objet. Ici, la commande `st.form` est assignée à la variable `form`. Par la suite, diverses commandes Streamlit telles que `slider` ou `form_submit_button` sont appliquées sur la variable `form`.
+
+Ici, la commande `st.form` est assignée à la variable `form`. Par la suite, diverses commandes Streamlit telles que `slider` ou `form_submit_button` sont appliquées sur la variable `form`.
 
 
 ```python

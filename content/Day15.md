@@ -29,7 +29,7 @@ La première chose à faire lors de la création d'une app Streamlit est d'impor
 import streamlit as st
 ```
 
-Ensuite, créons un texte d'en-tête (header) pour l'application :
+Ensuite, créons un en-tête (header) pour l'application :
 ```python
 st.header('st.latex')
 ```
@@ -44,4 +44,4 @@ st.latex(r'''
 ```
 
 ## Références
-- En savoir plus sur [`st.latex`](https://docs.streamlit.io/library/api-reference/text/st.latex)!
+- En savoir plus sur [`st.latex`](https://docs.streamlit.io/library/api-reference/text/st.latex).

@@ -56,7 +56,7 @@ Ensuite, créons un en-tête (header) pour l'application :
 st.header('`streamlit_pandas_profiling`')
 ```
 
-Chargeons maintenant la base de données `Penguins` à l'aide de la commande `read_csv` de `pandas`.
+Chargeons maintenant la base de données `Penguins` à l'aide de la commande `read_csv` de Pandas.
 ```python
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
 ```
@@ -76,7 +76,7 @@ Si vous souhaitez créer votre propre composant, veuillez consulter les ressourc
 - [Article d'intro sur les composants](https://blog.streamlit.io/introducing-streamlit-components/)
 
 
-Si vous préférez apprendre à l'aide de vidéos, notre ingénieur Tim Conkling vous a concocté d'excellents tutoriels, que vous pouvez consulter ci-dessous:
+Si vous préférez apprendre à l'aide de vidéos, notre ingénieur Tim Conkling vous a concocté d'excellents tutos, que vous pouvez consulter ci-dessous:
 - [Comment construire un composant Streamlit | Partie 1 : Configuration et architecture](https://youtu.be/BuD3gILJW-Q)
 - [Comment construire un composant Streamlit | Partie 2 : Partie 2 : Créer un widget Slider](https://youtu.be/QjccJl_7Jco)
 

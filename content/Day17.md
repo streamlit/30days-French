@@ -34,7 +34,7 @@ st.write(st.secrets['message'])
 
 Il convient de noter que les secrets peuvent être stockés dans Streamlit Cloud, comme indiqué dans les captures d'écran ci-dessous.
 
-Si vous travaillez localement, ils peuvent être stockés dans `.streamlit/secrets.toml`, mais assurez-vous d'éviter de les télécharger sur un repo GitHub lors du déploiement de l'application.
+Si vous travaillez localement, ils peuvent être stockés dans `.streamlit/secrets.toml`, mais évitez de les télécharger sur un repo GitHub lors du déploiement!
 
 ## Lectures complémentaires
 - [Ajouter des secrets à vos applications Streamlit](https://blog.streamlit.io/secrets-in-sharing-apps/)

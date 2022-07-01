@@ -1,8 +1,8 @@
 # st.file_uploader
 
-`st.file_uploader` affiche un widget d'upload de fichiers [[1](https://docs.streamlit.io/library/api-reference/widgets/st.file_uploader)].
+`st.file_uploader` affiche un widget qui vous permet d'uploader des fichiers [[1](https://docs.streamlit.io/library/api-reference/widgets/st.file_uploader)].
 
-Par défaut, les fichiers uploadés sont limités à 200 Mo. Vous pouvez configurer l'uploader à l'aide de l'option de configuration `server.maxUploadSize`. Pour plus d'informations sur la définition des options de configuration, consultez [[2](https://docs.streamlit.io/library/advanced-features/configuration#set-configuration-options)].
+Par défaut, les fichiers uploadés sont limités à `200` Mo. Néanmoins, vous pouvez configurer l'uploader à l'aide de l'option  `server.maxUploadSize`. Pour plus d'informations sur les options de configuration, consultez [[2](https://docs.streamlit.io/library/advanced-features/configuration#set-configuration-options)].
 
 ## Application de démonstration
 
@@ -31,7 +31,7 @@ else:
 
 ## Explication ligne par ligne
 
-La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st` et d'autres bibliothèques prérequises comme suit :
+La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st`, ainsi que les autres bibliothèques requises, comme suit :
 
 ```python
 import streamlit as st
@@ -43,15 +43,13 @@ Ensuite, créons un titre pour l'application :
 st.title('st.file_uploader')
 ```
 
-Ensuite, nous utiliserons `st.file_uploader` pour afficher un widget d'upload de fichiers :
+Ensuite, utilisons `st.file_uploader` :
 ```python
 st.subheader('Input CSV')
 uploaded_file = st.file_uploader("Choose a file")
 ```
 
-Enfin, nous définissons des instructions conditionnelles (`if`/`else`) pour afficher un message de bienvenue invitant les utilisateurs à uploader leurs fichiers.
-
-Lors de l'upload du fichier, les instructions "if" sont activées, le fichier CSV est lu par la bibliothèque `Pandas` et affiché via la commande `st.write`:
+Enfin, Définissons des instructions conditionnelles (`if`/`else`) pour afficher un message de bienvenue invitant les utilisateurs à uploader leurs fichiers. Lors de l'upload du fichier, les instructions du bloc `if` sont activées, le fichier CSV est lu par la bibliothèque Pandas, et affiché via la commande `st.write`:
 
 ```python
 if uploaded_file is not None:

@@ -1,10 +1,10 @@
-# Activer un environnement de développement cloud
+# Créer un environnement de développement dans le Cloud
 
-### GitPod
-Pour faire tourner un environnement de développement sur le cloud, nous pouvons utiliser [GitPod](https://www.gitpod.io/) et cela peut être fait simplement en cliquant sur le lien suivant :
-- Essayez-le 👉 https://gitpod.io/#/https://github.com/dataprofessor/streamlit101/
+Pour cela, nous pouvons utiliser [GitPod](https://www.gitpod.io/). Cela peut être fait simplement en cliquant sur le lien suivant :
 
-Comme vous pouvez le voir sur l'URL ci-dessus, l'URL du repo GitHub est ajoutée après `https://gitpod.io/#/`, ce qui permet essentiellement à GitPod de lancer un environnement de développement en utilisant les instructions contenues dans cette URL (à savoir dans le `requirements.txt`, qui répertorie spécifiquement les bibliothèques Python à installer).
+👉 https://gitpod.io/#/https://github.com/dataprofessor/streamlit101/
+
+Comme vous pouvez le voir sur l'URL ci-dessus, l'URL du repo est ajoutée après `https://gitpod.io/#/`, ce qui permet à GitPod de lancer un environnement en utilisant les instructions contenues dans cette URL.
 
 > Remarque : Il existe d'autres environnements de développement cloud similaires, tels que :
 > - [GitHub Codespaces](https://docs.github.com/en/codespaces/setting-up-your-project-for-codespaces/setting-up-your-python-project-for-codespaces)

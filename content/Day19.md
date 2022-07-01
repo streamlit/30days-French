@@ -1,7 +1,7 @@
 # Améliorer la mise en page de votre app Streamlit
 
 Dans ce tutoriel, nous allons utiliser les commandes suivantes pour mettre en page notre application Streamlit :
-- `st.set_page_config(layout="wide")` - Affiche le contenu de l'application en mode large.
+- `st.set_page_config(layout="wide")` - Affiche le contenu de l'application en mode "large".
 - `st.sidebar` - Place les widgets dans la barre latérale.
 - `st.expander` - Place les widgets dans un expander.
 - `st.columns` - Crée une colonne dans lequel le contenu peut être placé.
@@ -57,13 +57,13 @@ La première chose à faire lors de la création d'une app Streamlit est d'impor
 import streamlit as st
 ```
 
-Définissons la mise en page en mode "large", qui permet au contenu de la page de s'étendre à la largeur du navigateur.
+Définissons la mise en page en mode "large", qui permet au contenu de la page de s'étendre à la largeur du navigateur :
 
 ```python
 st.set_page_config(layout="wide")
 ```
 
-Ensuite, donnons un titre à l'application Streamlit.
+Ensuite, donnons un titre à l'application Streamlit :
 ```python
 st.title('Comment mettre en page votre application Streamlit')
 ```
@@ -88,7 +88,7 @@ Enfin, nous allons créer 3 colonnes à l'aide de la commande `st.columns` : `co
 
 Attribuons un contenu à chacune de nos colonnes en créant des blocs de code commençant par l'instruction `with`.
 
-Ensuite, créons les instructions conditionnelles qui affichent un texte alternatif sur deux selon que l'utilisateur ajoute ses données ou pas.
+Ensuite, créons les instructions conditionnelles qui affichent un texte alternatif sur deux selon que l'utilisateur ajoute ses données ou non.
 
 Par défaut, la page affiche le texte sous l'instruction `else`.
 

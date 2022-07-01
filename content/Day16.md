@@ -53,7 +53,7 @@ Ensuite, créons un titre pour l'application :
 st.title('Theming with config.toml')
 ```
 
-Ensuite, nous allons afficher le contenu du fichier `.streamlit/config.toml` via `st.write`, suivi de la commande `st.code` :
+Maintenant, nous allons afficher le contenu du fichier `.streamlit/config.toml` via `st.write`, suivi de la commande `st.code` :
 
 ```python
 st.write('Contents of the ./streamlit/config.toml file of this app')
@@ -68,14 +68,14 @@ font="monospace"
 """)
 ```
 
-Enfin, nous créons un slider dans la barre latérale et afficher le nombre sélectionné :
+Enfin, créons un slider dans la barre latérale et affichons le nombre sélectionné :
 
 ```python
 number = st.sidebar.slider('Select a number:', 0, 10, 5)
 st.write('Selected number from slider widget is:', number)
 ```
 
-Voyons maintenant les couleurs personnalisées que nous avons utilisé dans notre app, qui sont spécifiées dans le fichier `.streamlit/config.toml` :
+Constatons les couleurs personnalisées que nous avons creé, spécifiées dans le fichier `.streamlit/config.toml` :
 - `primaryColor="#F39C12"` - Définit la couleur primaire `orange`. Notez la couleur `orange` du slider.
 - `backgroundColor="#2E86C1"` - Définit la couleur d'arrière-plan: `bleu`. Notez que le panneau principal est désormais de couleur bleue.
 - `secondaryBackgroundColor="#AED6F1"` - Définit la couleur d'arrière-plan (ou secondaire): `gris foncé`. Remarquez la couleur d'arrière-plan grise de la barre latérale.

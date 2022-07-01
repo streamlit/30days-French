@@ -1,7 +1,7 @@
 
 # st.checkbox
 
-`st.checkbox` affiche un widget de case à cocher.
+`st.checkbox` affiche un widget de type checkbox.
 
 ## Démo
 
@@ -37,7 +37,7 @@ La première chose à faire lors de la création d'une app Streamlit est d'impor
 import streamlit as st
 ```
 
-Ensuite, créons un texte d'en-tête pour l'application :
+Ensuite, créons une en-tête (header) pour l'application :
 ```python
 st.header('st.checkbox')
 ```

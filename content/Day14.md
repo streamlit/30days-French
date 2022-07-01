@@ -2,13 +2,13 @@
 
 Les composants sont des modules Python tiers qui étendent les possibilités de Streamlit [[1](https://docs.streamlit.io/library/components)].
 
-## Quels composants Streamlit sont disponibles ?
+## Quels sont les composants disponibles ?
 
-Il existe plusieurs dizaines de composants Streamlit présentés sur le site de Streamlit [[2](https://streamlit.io/components)].
+Il existe des dizaines de composants Streamlit présentés sur le site de Streamlit [[2](https://streamlit.io/components)].
 
-Fanilo (un fervent créateur Streamlit) a organisé une liste des composants Streamlit sur un article wiki [[3](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634)] qui répertorie environ 85 Streamlit composants à compter d'Avril 2022.
+Fanilo (un de nos plus fervent créateur) a crée une liste exhaustive des composants sur cet article wiki [[3](https://discuss.streamlit.io/t/streamlit-components-community-tracker/4634)]. L'article répertorie 85 composants à compter d'Avril 2022.
 
-## Comment utiliser?
+## Comment les utiliser?
 
 Les composants Streamlit s'installent simplement via `pip d'install`.
 
@@ -42,7 +42,7 @@ st_profile_report(pr)
 ```
 
 ## Explication ligne par ligne
-La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st` ainsi que d'autres bibliothèques utilisées dans l'application comme ceci :
+La première chose à faire lors de la création d'une app Streamlit est d'importer la bibliothèque `streamlit` as `st` ainsi que toutes les autres bibliothèques utilisées dans l'application :
 
 ```python
 import streamlit as st
@@ -51,12 +51,12 @@ import pandas_profiling
 from streamlit_pandas_profiling import st_profile_report
 ```
 
-Ensuite, créons un texte d'en-tête pour l'application :
+Ensuite, créons une en-tête (header) pour l'application :
 ```python
 st.header('`streamlit_pandas_profiling`')
 ```
 
-Ensuite, nous chargeons la dataset `Penguins` à l'aide de la commande `read_csv` de `pandas`.
+Chargeons maintenant la base de données `Penguins` à l'aide de la commande `read_csv` de `pandas`.
 ```python
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
 ```

@@ -2,7 +2,7 @@
 
 `st.line_chart` affiche un graphique linéaire.
 
-Il s'agit d'un sucre syntaxique d'`st.altair_chart`. La principale différence est que cette commande utilise les colonnes et indices du dataset pour déterminer le graphique. Il est plus facile à utiliser tout en étant moins personnalisable.
+Il s'agit d'un sucre syntaxique d'`st.altair_chart`. La principale différence est que cette commande utilise les colonnes et indices de la base de données pour déterminer le graphique. Il est plus facile à utiliser tout en étant moins personnalisable.
 
 Si `st.line_chart` ne devine pas correctement, essayez de spécifier le graphique souhaité à l'aide de `st.altair_chart`.
 
@@ -43,7 +43,7 @@ import pandas as pd
 import numpy as np
 ```
 
-Ensuite, nous créons un texte d'en-tête (header) pour l'application :
+Ensuite, nous créons une en-tête (header) pour l'application :
 
 ```python
 st.header('Line chart')

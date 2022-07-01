@@ -5,7 +5,7 @@
 En règle générale, chaque fois qu'un utilisateur interagit avec un widget, l'application Streamlit est réexécutée.
 
 
-Un formulaire est un conteneur qui regroupe un ou plusieurs widgets et un bouton "Submit". Un utilisateur peut donc interagir avec un ou plusieurs widgets autant de fois qu'il le souhaite sans provoquer de réexécution du code. Lorsque le bouton "Submit" du formulaire est pressé, toutes les valeurs de widget à l'intérieur de ce formulaire seront envoyées à Streamlit en un seul "batch".
+Un formulaire est un conteneur qui regroupe un ou plusieurs widgets et un bouton "Submit". Un utilisateur peut donc interagir avec un ou plusieurs widgets autant de fois qu'il le souhaite sans provoquer de réexécution du code. Lorsque le bouton "Submit" du formulaire est pressé, toutes les valeurs de widget à l'intérieur de ce formulaire sont envoyées à Streamlit en un seul "batch".
 
 Les formulaires ont toutefois quelques contraintes :
 
@@ -81,7 +81,7 @@ st.title('st.form')
 ```
 
 ### Premier exemple
-Dans le formulaire, commençons par afficher un "subheader" "Order your coffee", puis créons plusieurs widgets de saisie (`st.selectbox`, `st.select_slider` et `st.checkbox`) pour collecter des informations sur la commande de café.
+Dans le formulaire, commençons par afficher un *subheader* "Order your coffee", puis créons plusieurs widgets de saisie (`st.selectbox`, `st.select_slider` et `st.checkbox`) pour collecter des informations sur la commande de café.
 
 Enfin, un bouton "Submit" est créé via la commande `st.form_submit_button`, qui, une fois cliqué, enverra toutes les données entrées par l'utilisateur a l'application.
 
@@ -106,7 +106,7 @@ with st.form('my_form'):
 
 Il est maintenant temps d'ajouter de la logique!
 
-Par défaut, chaque fois que l'application Streamlit démarre, l'instruction `else` sera exécutée et nous verrons un message `☝️ Place your order!`. Alors qu'en cliquant sur le bouton d'envoi (`Submit`), toutes les entrées fournies par l'utilisateur via les différents widgets sont stockées dans plusieurs variables (par exemple, `coffee_bean_val`, `coffee_roast_val`, etc.) et affichées via la commande `st.markdown` à l'aide d'un f-string, comme suit:
+Par défaut, chaque fois que l'application Streamlit démarre, l'instruction `else` sera exécutée et nous verrons un message `☝️ Place your order!`. Alors qu'en cliquant sur le bouton `Submit`, toutes les entrées fournies par l'utilisateur sont stockées dans plusieurs variables (par exemple, `coffee_bean_val`, `coffee_roast_val`, etc.) et affichées via la commande `st.markdown` à l'aide d'un f-string :
 
 ```python
 if submitted:
@@ -126,7 +126,7 @@ else:
 
 ### Deuxième exemple
 
-Ici, la commande `st.form` est assignée à la variable `form`. Par la suite, diverses commandes Streamlit telles que `slider` ou `form_submit_button` sont appliquées sur la variable `form`.
+Ici, la commande `st.form` est assignée à la variable `form`. Les diverses commandes telles que `slider` ou `form_submit_button` sont ajoutées à cette variable :
 
 
 ```python

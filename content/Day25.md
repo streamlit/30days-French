@@ -1,14 +1,14 @@
 # st.session_state
 
-L'accès à une application Streamlit se fait en initialisant une session dans un onglet de votre navigateur. Pour chaque onglet se connectant au serveur Streamlit, une nouvelle session est créée. Streamlit réexécute votre script de haut en bas chaque fois que vous interagissez avec votre app: aucune variable n'est partagée entre les exécutions.
+L'accès à une application Streamlit se fait en initialisant une session dans un onglet de votre navigateur. Pour chaque onglet se connectant au serveur Streamlit, une nouvelle session est créée. Streamlit réexécute votre script de haut en bas chaque fois que vous interagissez avec votre app. Aucune variable n'est partagée entre les exécutions.
 
 `Session State` est un moyen de partager des variables entre les exécutions, et ce, pour chaque session.
 
-En plus de la possibilité de conserver l'état (state) de l'app, Streamlit permet aussi de modifier cet état à l'aide de rappels.
+En plus de la possibilité de conserver l'état (state) de l'app, Streamlit permet aussi de modifier cet état à l'aide de Callbacks.
 
-Dans ce tutoriel, nous allons illustrer l'utilisation de `Session State` et des `Callbacks` et créant un convertisseur de poids.
+Dans ce tutoriel, nous allons illustrer l'utilisation de Session State et des `Callbacks` et créant un convertisseur de poids.
 
-`st.session_state` est le widget qui permet l'implémentation de `Session State` dans une application Streamlit.
+`st.session_state` est le widget qui permet l'implémentation de Session State dans une application Streamlit.
 
 ## Démo
 
@@ -49,7 +49,7 @@ Nous allons ensuite créer un titre pour l'application :
 st.title('st.session_state')
 ```
 
-Ensuite, nous définissons des fonctions pour la conversion du poids en livres (`lbs`) et kg, et vice versa :
+Ensuite, nous définissons des fonctions pour la conversion du poids en livres (`lbs`) et kilogrammes (`kg`), et vice versa :
 ```python
 def lbs_to_kg() :
   st.session_state.kg = st.session_state.lbs/2.2046
@@ -67,9 +67,9 @@ with col2:
   kilogram = st.number_input("Kilograms:", key = "kg", on_change = kg_to_lbs)
 ```
 
-Les deux fonctions ci-dessus sont appelées dès qu'une valeur numérique est entrée via la commande `st.number_input`. Remarquez comment l'option `on_change` spécifie les 2 fonctions `lbs_to_kg` et `kg_to_lbs`).
+Les deux fonctions ci-dessus sont appelées dès qu'une valeur est entrée via `st.number_input`. Remarquez comment l'option `on_change` spécifie les deux fonctions `lbs_to_kg` et `kg_to_lbs`.
 
-Enfin, les valeurs de poids en unités `kg` et `lbs` telles que stockées dans le session state sous `st.session_state.kg` et `st.session_state.lbs` sont imprimées via `st.write` :
+Enfin, les valeurs de poids en unités `kg` et `lbs` telles que stockées dans le session state sous `st.session_state.kg` et `st.session_state.lbs` sont affichées via `st.write` :
 
 ```python
 st.header('Output')

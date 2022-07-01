@@ -66,7 +66,7 @@ with st.expander('About this app'):
   st.write("`st.experimental_get_query_params` allows the retrieval of query parameters directly from the URL of the user's browser.")
 ```
 
-Ajoutons maintenant des instructions pour les utilisateurs quant à la façon dont ils peuvent transmettre les paramètres de requête directement vers l'URL :
+Ajoutons maintenant des instructions pour les utilisateurs :
 
 ```python
 # 1. Instructions

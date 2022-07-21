@@ -33,8 +33,8 @@ Il est maintenant temps d'installer la bibliothèque `streamlit` :
 pip install streamlit
 ```
 
-## **Lancement de l'app de démonstration Streamlit**
-Pour lancer l'app de démonstration Streamlit (Figure 1), saisissez :
+## **Lancement de la démo Streamlit**
+Pour lancer la démo Streamlit (Figure 1), saisissez :
 ```bash
 streamlit hello
 ```

@@ -19,7 +19,7 @@ md_files = sorted(
 col1, col2, col3 = st.columns((1, 4, 1))
 with col2:
     st.image(Image.open("streamlit-logo-secondary-colormark-darktext.png"))
-st.markdown("# 30 Days of Streamlit")
+st.markdown("# 30 Days of Streamlit en Français! 🇫🇷")
 
 days_list = [f"Day {x}" for x in md_files]
 

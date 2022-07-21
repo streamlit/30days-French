@@ -29,7 +29,7 @@ if query_params and query_params["challenge"][0] in days_list:
     st.session_state.day = query_params["challenge"][0]
 
 selected_day = st.selectbox(
-    "Start the Challenge 👇", days_list, key="day", on_change=update_params
+    "Choisissez votre défi 👇", days_list, key="day", on_change=update_params
 )
 
 with st.expander("À propos du challenge #30DaysOfStreamlit"):

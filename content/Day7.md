@@ -1,10 +1,10 @@
-# Déploiement de votre application Streamlit avec Streamlit Cloud
+# Déploiement de votre application Streamlit avec Streamlit Community Cloud
 
-[Streamlit Cloud](https://streamlit.io/cloud) est un service d'hébergement permettant de déployer facilement vos applications Streamlit.
+[Streamlit Community Cloud](https://streamlit.io/cloud) est un service d'hébergement permettant de déployer facilement vos applications Streamlit.
 
-## Inscrivez-vous à Streamlit Cloud
+## Inscrivez-vous à Streamlit Community Cloud
 
-Vous pouvez facilement vous inscrire à [Streamlit Cloud](https://streamlit.io/cloud) en vous connectant simplement avec un compte Google ou GitHub.
+Vous pouvez facilement vous inscrire à [Streamlit Community Cloud](https://streamlit.io/cloud) en vous connectant simplement avec un compte Google ou GitHub.
 
 ## Déployer une app Streamlit
 

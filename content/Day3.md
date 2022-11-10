@@ -72,7 +72,7 @@ st.write('goodbye')
 
 ## Prochaines étapes
 
-Maintenant que vous avez créé votre app localement, il est temps de la déployer sur [Streamlit Cloud](https://streamlit.io/cloud) comme cela sera expliqué dans un prochain défi.
+Maintenant que vous avez créé votre app localement, il est temps de la déployer sur [Streamlit Community Cloud](https://streamlit.io/cloud) comme cela sera expliqué dans un prochain défi.
 
 Comme il s'agit de la première semaine de votre défi, nous vous fournissons le code complet et la solution (l'app de démonstration) ici.
 

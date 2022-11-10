@@ -65,7 +65,7 @@ st.sidebar.markdown(
 
 st.sidebar.header("Déploiement")
 st.sidebar.markdown(
-    "Déployez vos applications Streamlit à l'aide de [Streamlit Cloud](https://streamlit.io/cloud) en quelques clics!"
+    "Déployez vos applications Streamlit à l'aide de [Streamlit Community Cloud](https://streamlit.io/cloud) en quelques clics!"
 )
 
 # Display content

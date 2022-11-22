@@ -30,6 +30,6 @@ Nos défis sont divisés en 3 niveaux de difficulté :
 
 ## Autres traductions
 
-- [🇵🇹 Portugais](https://github.com/franciscoed/30days) (par [franciscoed](https://github.com/franciscoed)) 
-
-[![Application Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/franciscoed/30days)
+- 🇬🇧 [Anglais](https://github.com/streamlit/30days) (Officiel): [![30 Days of Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days.streamlit.app)
+- 🇪🇸 [Espagnol](https://github.com/streamlit/30days-spanish/) (by [Emiliano Rosso](https://github.com/arraydude)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-spanish.streamlit.app/)
+- 🇵🇹 [Portugais](https://github.com/franciscoed/30days) (by [franciscoed](https://github.com/franciscoed)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30dias.streamlit.app/)

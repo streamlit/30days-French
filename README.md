@@ -30,9 +30,9 @@ Nos défis sont divisés en 3 niveaux de difficulté :
 
 ## Autres traductions
 
-- 🇬🇧 [Anglais](https://github.com/streamlit/30days) (officiel): [![30 Days of Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days.streamlit.app)
+- [Anglais](https://github.com/streamlit/30days) (officiel): [![30 Days of Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days.streamlit.app)
 - [Chinois](https://github.com/TeddyHuang-00/30days-Chinese) (by [TeddyHuang-00](https://github.com/TeddyHuang-00)): [![30 天学 Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-chinese.streamlit.app)
-- 🇪🇸 [Espagnol](https://github.com/streamlit/30days-spanish/) (by [Emiliano Rosso](https://github.com/arraydude)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-spanish.streamlit.app/)
-- 🇵🇱 [Polonais](https://github.com/streamlit/30days-polish) (by [Michał Nowotka](https://github.com/sfc-gh-mnowotka)): [![Streamlit w 30 dni po Polsku](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://w30dni.streamlit.app/)
-- 🇵🇹 [Portugais](https://github.com/franciscoed/30days) (by [franciscoed](https://github.com/franciscoed)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30dias.streamlit.app/)
-- 🇷🇺 [Russe](https://github.com/kseniaanske/30days) (by [Ksenia Anske](https://github.com/kseniaanske)): [![30 Дней Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-russian.streamlit.app/)
+- [Espagnol](https://github.com/streamlit/30days-spanish/) (by [Emiliano Rosso](https://github.com/arraydude)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-spanish.streamlit.app/)
+- [Polonais](https://github.com/streamlit/30days-polish) (by [Michał Nowotka](https://github.com/sfc-gh-mnowotka)): [![Streamlit w 30 dni po Polsku](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://w30dni.streamlit.app/)
+- [Portugais](https://github.com/franciscoed/30days) (by [franciscoed](https://github.com/franciscoed)): [![30 Dias de Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30dias.streamlit.app/)
+- [Russe](https://github.com/kseniaanske/30days) (by [Ksenia Anske](https://github.com/kseniaanske)): [![30 Дней Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://30days-in-russian.streamlit.app/)
